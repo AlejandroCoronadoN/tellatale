@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "configurations": [
+        {
+            "name": "Python: FastAPI",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "cwd": "${workspaceFolder}/src",
+            "args": [
+                "agents.main:app",
+                "--reload"
+            ],
+            "jinja": true,
+            "justMyCode": true
+        }
+    ]
+}

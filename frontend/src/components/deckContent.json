@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "deckImage": "/img/deck_1.png",
+      "deckTitle": "1 Terapia 60 min",
+      "deckSub": "Subtitle 1",
+      "deckInfo": "INFO 1",
+      "deckBtn": "Button 1",
+      "li_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "li_2": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "li_3": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "li_4": "",
+      "category": "category_1"
+    },
+    {
+      "id": 2,
+      "deckImage": "/img/deck_2.png",
+      "deckTitle": "Title 2",
+      "deckSub": "Subtitle 2",
+      "deckInfo": "INFO ",
+      "deckBtn": "Button 2",
+      "li_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "li_2": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "li_3": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "li_4": "",
+      "category": "category_4"
+    },
+    {
+      "id": 3,
+      "deckImage": "/img/deck_3.png",
+      "deckTitle": "Title 3",
+      "deckSub": "Subtitle 3",
+      "deckInfo": "INFO 3 ",
+      "deckBtn": "Button 3",
+      "li_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "li_2": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "li_3": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "li_4": "",
+      "category": "category_8"
+    }
+  ]
+  
