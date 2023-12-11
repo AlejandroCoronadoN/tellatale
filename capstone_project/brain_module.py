@@ -4,6 +4,7 @@ import os
 import openai
 from dotenv import load_dotenv
 
+
 class ChatGPT:
     """A class to interact with OpenAI's ChatGPT model."""
 
@@ -33,13 +34,13 @@ class ChatGPT:
         """
 
         # Create a chat completion with the provided message and role
-        response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            messages=[{"role": role, "content": message}]
+        response = openai.ChatOpenAI.create(
+            model="gpt-3.5-turbo", messages=[{"role": role, "content": message}]
         )
 
         # Return the message content from the API response
         return response["choices"][0]["message"]["content"]
+
 
 # If you need to test or use this directly, you can do:
 # if __name__ == "__main__":
